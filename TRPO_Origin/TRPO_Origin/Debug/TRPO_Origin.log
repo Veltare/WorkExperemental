@@ -1,0 +1,4 @@
+﻿  TRPO_Origin.cpp
+c:\users\notebookaristokrata\documents\visual studio 2015\projects\laboration\trpo_origin\trpo_origin\trpo_origin.cpp(78): warning C4715: raschet: значение возвращается не при всех путях выполнения
+  TRPO_Origin.vcxproj -> C:\Users\NotebookAristokrata\Documents\Visual Studio 2015\Projects\Laboration\TRPO_Origin\Debug\TRPO_Origin.exe
+  TRPO_Origin.vcxproj -> C:\Users\NotebookAristokrata\Documents\Visual Studio 2015\Projects\Laboration\TRPO_Origin\Debug\TRPO_Origin.pdb (Full PDB)
