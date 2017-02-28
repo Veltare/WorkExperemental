@@ -1,0 +1,4 @@
+﻿  Laba2_2.cpp
+c:\users\notebookaristokrata\documents\visual studio 2015\projects\laboration\laboration\consoleapplication1\laba2_2.cpp(19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\NotebookAristokrata\Documents\Visual Studio 2015\Projects\Laboration\Laboration\Debug\Laba2_2.exe
+  ConsoleApplication1.vcxproj -> C:\Users\NotebookAristokrata\Documents\Visual Studio 2015\Projects\Laboration\Laboration\Debug\Laba2_2.pdb (Full PDB)
