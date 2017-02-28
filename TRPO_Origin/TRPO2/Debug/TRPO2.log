@@ -1,7 +1,3 @@
-﻿  TRPO2.cpp
-  Proverka.cpp
-c:\users\notebookaristokrata\documents\visual studio 2015\projects\laboration\trpo_origin\trpo2\proverka.cpp(46): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-  Создание кода...
-c:\users\notebookaristokrata\documents\visual studio 2015\projects\laboration\trpo_origin\trpo2\proverka.cpp(63): warning C4715: raschet: значение возвращается не при всех путях выполнения
+﻿  VVOD.cpp
   TRPO2.vcxproj -> C:\Users\NotebookAristokrata\Documents\Visual Studio 2015\Projects\Laboration\TRPO_Origin\Debug\TRPO2.exe
   TRPO2.vcxproj -> C:\Users\NotebookAristokrata\Documents\Visual Studio 2015\Projects\Laboration\TRPO_Origin\Debug\TRPO2.pdb (Full PDB)

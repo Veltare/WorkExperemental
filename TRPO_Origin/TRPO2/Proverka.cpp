@@ -5,6 +5,7 @@
 using namespace std;
 
 float raschet(float vklad, float time_vk)
+
 {
 	float vkladnew = vklad;
 	float timevknew = time_vk;
