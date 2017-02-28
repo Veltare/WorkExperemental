@@ -1,0 +1,83 @@
+// SAOU3_Bubble_Sort.cpp: Лабораторная работа №3 по предмету "Структуры и алгоритмы обработки данных".
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <clocale>
+#include "SAOD_LIB.h"
+void PrintMasss(int *adress, int dlinna);
+void Bubble_Sort(int **massive, int n);
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+
+	int n, *massive;
+	cout << "Введите размер массива" << endl;
+	cin >> n;
+	massive = new int[n];
+	FillRand(massive, n);
+	Bubble_Sort(&massive,n);
+
+	int teor_c = n*(n - 1)/2;;
+	int teor_m = n*(n - 1)/2;
+	cout << "Отсортированный массив" << endl;
+	PrintMasss(massive, n);
+
+	cout << "\nТеоритическая перестановка " << teor_m << endl;
+	cout << "\nТеоритическое сравнение " << teor_c << endl;
+
+	
+	delete massive;
+	/*
+	cout << "__________________________________________________________________________" << endl;
+	cout << "|    N     |  " << "Теоритическое M и N|" << "       M факт + С факт     " << endl;
+	cout << "|__________|___________________________|" << "Убыв|" << "Возр|" << "Случ|" << endl;
+	cout << "|    100   |  " << "                         |" << "    |" << "    |" << "    |" << endl;
+	cout << "-------------------------------------------------------------------------" << endl;
+	cout << "|    200   |  " << "                         |" << "    |" << "    |" << "    |" << endl;
+	cout << "-------------------------------------------------------------------------" << endl;
+	cout << "|    300   |  " << "                         |" << "    |" << "    |" << "    |" << endl;
+	cout << "-------------------------------------------------------------------------" << endl;
+	cout << "|    400   |  " << "                         |" << "    |" << "    |" << "    |" << endl;
+	cout << "-------------------------------------------------------------------------" << endl;
+	cout << "|    500   |  " << "                         |" << "    |" << "    |" << "    |" << endl;
+	cout << "-------------------------------------------------------------------------" << endl;
+	cout << "_________________________________________________________________________" << endl;
+	*/
+	system("pause");
+}
+
+void PrintMasss(int *adress, int dlinna)
+{
+	int i;
+	for (i = 0; i<dlinna; i++)
+	{
+		cout <<"#"<<i<<" |"<< adress[i] << "| ";
+	}
+}
+/*void Bubble_Sort(int **massive, int n)
+{
+	int j,m(0),c(0);
+	for (int i = 0; i < n - 1; i++)
+	{
+
+		for (j = 0; j < n - 1; j++)
+		{
+			c++;
+			if (massive[j] > massive[j + 1])
+			{
+				swap(*massive, j, j + 1);
+				m += 3;
+				PrintMass(*massive, n);
+				cout << "|" << endl;
+			}
+
+		}
+
+	}
+	cout << "\nMove:" << m;
+	cout << "\nCompare:" << c << endl;
+}*/
